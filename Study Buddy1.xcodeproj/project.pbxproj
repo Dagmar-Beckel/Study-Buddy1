@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		899B32E02A661FD8001E2C83 /* Study_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B32DF2A661FD8001E2C83 /* Study_BuddyApp.swift */; };
+		899B32E02A661FD8001E2C83 /* Study_Buddy1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B32DF2A661FD8001E2C83 /* Study_Buddy1App.swift */; };
 		899B32E22A661FD8001E2C83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B32E12A661FD8001E2C83 /* ContentView.swift */; };
 		899B32E42A661FD8001E2C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899B32E32A661FD8001E2C83 /* Assets.xcassets */; };
 		899B32E72A661FD8001E2C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899B32E62A661FD8001E2C83 /* Preview Assets.xcassets */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		899B32DC2A661FD8001E2C83 /* Study Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		899B32DF2A661FD8001E2C83 /* Study_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_BuddyApp.swift; sourceTree = "<group>"; };
+		899B32DC2A661FD8001E2C83 /* Study Buddy1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study Buddy1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899B32DF2A661FD8001E2C83 /* Study_Buddy1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_Buddy1App.swift; sourceTree = "<group>"; };
 		899B32E12A661FD8001E2C83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		899B32E32A661FD8001E2C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899B32E62A661FD8001E2C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		899B32D32A661FD7001E2C83 = {
 			isa = PBXGroup;
 			children = (
-				899B32DE2A661FD8001E2C83 /* Study Buddy */,
+				899B32DE2A661FD8001E2C83 /* Study Buddy1 */,
 				899B32DD2A661FD8001E2C83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +47,22 @@
 		899B32DD2A661FD8001E2C83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				899B32DC2A661FD8001E2C83 /* Study Buddy.app */,
+				899B32DC2A661FD8001E2C83 /* Study Buddy1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		899B32DE2A661FD8001E2C83 /* Study Buddy */ = {
+		899B32DE2A661FD8001E2C83 /* Study Buddy1 */ = {
 			isa = PBXGroup;
 			children = (
 				899B32F02A662027001E2C83 /* ViewModel */,
 				899B32EF2A662014001E2C83 /* View */,
-				899B32DF2A661FD8001E2C83 /* Study_BuddyApp.swift */,
+				899B32DF2A661FD8001E2C83 /* Study_Buddy1App.swift */,
 				899B32E12A661FD8001E2C83 /* ContentView.swift */,
 				899B32E32A661FD8001E2C83 /* Assets.xcassets */,
 				899B32E52A661FD8001E2C83 /* Preview Content */,
 			);
-			path = "Study Buddy";
+			path = "Study Buddy1";
 			sourceTree = "<group>";
 		};
 		899B32E52A661FD8001E2C83 /* Preview Content */ = {
@@ -92,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		899B32DB2A661FD8001E2C83 /* Study Buddy */ = {
+		899B32DB2A661FD8001E2C83 /* Study Buddy1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 899B32EA2A661FD8001E2C83 /* Build configuration list for PBXNativeTarget "Study Buddy" */;
+			buildConfigurationList = 899B32EA2A661FD8001E2C83 /* Build configuration list for PBXNativeTarget "Study Buddy1" */;
 			buildPhases = (
 				899B32D82A661FD8001E2C83 /* Sources */,
 				899B32D92A661FD8001E2C83 /* Frameworks */,
@@ -104,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = "Study Buddy";
+			name = "Study Buddy1";
 			productName = "Study Buddy";
-			productReference = 899B32DC2A661FD8001E2C83 /* Study Buddy.app */;
+			productReference = 899B32DC2A661FD8001E2C83 /* Study Buddy1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 899B32D72A661FD7001E2C83 /* Build configuration list for PBXProject "Study Buddy" */;
+			buildConfigurationList = 899B32D72A661FD7001E2C83 /* Build configuration list for PBXProject "Study Buddy1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				899B32DB2A661FD8001E2C83 /* Study Buddy */,
+				899B32DB2A661FD8001E2C83 /* Study Buddy1 */,
 			);
 		};
 /* End PBXProject section */
@@ -162,7 +162,7 @@
 				899B32F22A66205C001E2C83 /* PomodoroModel.swift in Sources */,
 				899B32E22A661FD8001E2C83 /* ContentView.swift in Sources */,
 				899B32F42A66210A001E2C83 /* Home.swift in Sources */,
-				899B32E02A661FD8001E2C83 /* Study_BuddyApp.swift in Sources */,
+				899B32E02A661FD8001E2C83 /* Study_Buddy1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		899B32D72A661FD7001E2C83 /* Build configuration list for PBXProject "Study Buddy" */ = {
+		899B32D72A661FD7001E2C83 /* Build configuration list for PBXProject "Study Buddy1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				899B32E82A661FD8001E2C83 /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		899B32EA2A661FD8001E2C83 /* Build configuration list for PBXNativeTarget "Study Buddy" */ = {
+		899B32EA2A661FD8001E2C83 /* Build configuration list for PBXNativeTarget "Study Buddy1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				899B32EB2A661FD8001E2C83 /* Debug */,
