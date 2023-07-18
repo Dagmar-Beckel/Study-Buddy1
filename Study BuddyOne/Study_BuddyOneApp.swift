@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Study_BuddyApp: App {
+struct Study_BuddyOneApp: App {
     //MARK: Since We're doing Background fetching Intilizing Here
     @StateObject var pomodoroModel: PomodoroModel = .init()
     var body: some Scene{
